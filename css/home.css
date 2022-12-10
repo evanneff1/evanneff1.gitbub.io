@@ -1,0 +1,296 @@
+/* .common {
+
+
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    height: 25px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+} */
+
+.body {
+font-family:'Abel', Courier, monospace;
+
+}
+.leftmenu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 80px;
+    height: 500px;
+    /* background-color: grey; */
+}
+
+.rightmenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 80px;
+    height: 500px;
+    /* background-color: grey; */
+
+}
+
+.mainbody {
+    position: absolute;
+    top: 50px;
+    right: 84px;
+    left: 200px;
+    height: 500px;
+    /* background-color: grey; */
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(239, 243, 243);
+    z-index: 2;
+    /* display: inline-block; */
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(121, 126, 184);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  nav li a:hover {
+    /* background-color: #111; */
+    font-size: large;
+    text-decoration: underline;
+  }
+
+body {
+    margin: 0;
+}
+
+#more {
+    float: right;
+}
+
+nav img {
+    float: right;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    object-fit: cover;
+    object-position: 20px, 50px;
+    height: 48.5px;
+    width: 100px;
+    padding-right: 25px;
+    background-color: rgb(239, 243, 243);
+    /* border: #333; */
+}
+
+.section1 {
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 600px;
+    background-color: rgb(239, 243, 243);
+}
+
+#emailbutton {
+    display:block;
+    background-color: rgb(121, 126, 184);
+    color: aliceblue;
+    padding: 14px, 16px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding:10px;
+    position: absolute;
+    left: 65px;
+}
+
+.button:hover {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.socialmedia {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+    /* float: left; */
+}
+
+.socialmedia li {
+    padding:  2px;
+    float:left;
+    list-style: none;
+}
+
+.section2 {
+    position: relative;
+    height: 350px;
+    padding: 0px 85px 0px 85px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+ 
+.mybackground{
+    margin: 90px 100px 0px 50px;
+}
+
+.skills {
+    margin: 100px 150px 0px 500px;
+}
+
+.skills h3{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 30px;
+    padding: 3 0 0 0;
+    margin: 0 0 0 0;
+}
+
+iframe {
+    padding: 0px 30px 50px 305px;
+    /* left: 50px; */
+    position: relative;
+}
+
+.section3 {
+    background-color:  rgb(239, 243, 243);
+}
+
+.section2 h3 {
+    font-size: 30px;
+}
+
+.section2 p, li {
+    font-size: 15px;
+}
+
+.tableauPlaceholder {
+    padding: 50px 30px 50px 90px;
+}
+.section3 h3 {
+    padding: 70px 0px 10px 0px;
+    font-size: 30px;
+}
+.mywork {
+    margin: 0px 90px 0px 90px;
+}
+
+.skills ul {
+    padding: 0 40px 0 0;
+}
+
+.evan {
+    height: 600px;
+    float: right;
+}
+
+.reftri {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.refsub {
+    margin: 0 40px 0 40px;
+}
+
+.refsub h2 {
+    margin: 50px 40px 30px 40px;
+    font-size: 30px;
+}
+
+.ref1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit:cover;
+    object-position: 100% 20;
+}
+.ref1 {
+    margin: 20px 50px 0 175px;
+}
+.ref1 h2 {
+    text-align: center;
+}
+.ref2 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit:cover;
+    object-position: 100% 20;
+}
+.ref2 h2 {
+    text-align: center;
+}
+.ref2 {
+    margin: 20px 50px 0 50px;
+}
+.ref3 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit:cover;
+    object-position: 100% 20;
+}
+.ref3 h2 {
+    text-align: center;
+}
+.ref3 {
+    margin: 20px 175px 0 50px;
+}
+
+.subcontact {
+    margin: 0 400px 0 400px;
+    display: flex;
+    flex-direction: row;
+}
+.contact {
+    background-color: rgb(239, 243, 243);
+}
+.contact img {
+    width: 450px;
+    height: 550px;
+    border-radius: 25px;
+    object-fit:cover;
+    object-position: 100% 20;
+    margin: 50px 0 50px 100px;
+}
+.contact1 {
+    margin: 100px 20px 20px 20px;
+}
+input {
+    width: 100%;
+    height: 20px;
+    /* color: grey; */
+    background-color: rgb(226, 226, 226);
+    border: 0;
+    box-sizing: border-box;
+    
+}
+#message {
+    width: 100%;
+    height: 150px;
+   padding-bottom:125px ;
+}
+
+.subfooter {
+    margin: 20px 40px 20px 40px;
+    text-align: center;
+}
